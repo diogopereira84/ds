@@ -1,0 +1,15 @@
+package fox.fmc.partner.delivery.test.constants;
+
+public class AuthConstants {
+    public static final String NON_ADMIN = "non-admin";
+    public static final String SUPPORT_USER = "support-user";
+    public static final String BEARER = "BEARER";
+    public static final String BLANK_BEARER = "Bearer ";
+    public static final String EXPIRED_BEARER = "Bearer eyJraWQiOiI2S1dBaFhuUG1YVnRJNHN4WitRRFdiK0JhRkE3eUZsZHBBR09CVzNQbFNrPSIsImFsZyI6IlJTMjU2In0.eyJvcmlnaW5fanRpIjoiZjEwODFiOTgtMTdlYS00NTYwLWFlMWEtZTQzODY3OTYxOGVlIiwic3ViIjoiNDEwYjc1MDAtZDA0MS03MDA1LWM4YzQtNGU2YjBhYjJlMjFhIiwiYXVkIjoiNjllbmRyb2M5cG1vcGtiZGFtYnZxYmo1bW0iLCJldmVudF9pZCI6IjAzMTZlMzQ0LTg5MWEtNDgwMi05ZGYyLTJhMGFiMTlkNGM3YiIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNzM5Mjk3Nzk3LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0yLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMl84cWdUNVMxNWIiLCJjb2duaXRvOnVzZXJuYW1lIjoiYXV0b21hdGlvbl90ZXN0ZXJAZm94LmNvbSIsImV4cCI6MTczOTMwODU5NywiaWF0IjoxNzM5Mjk3Nzk3LCJqdGkiOiI3OTg0YjM4Yi0wYmFhLTRkYzMtYTI0YS02OTM0YjNkZjhkMDYifQ.Is8-xRuqtZzRHZ686us0UgMg9-HPoyEUvSgzG-U8wqVpYBYUa96Nt3YVUslR4UAoBF4PuBoyXiGPho9jYOzJqMCocrlU4Ty4n1AyZr4jWiq36Ur4_vYtViBlECc8JeLFcqR5QVIYE9pm_QxRcFyHIErkcA7J8gR7qGPR_8Mgvthski-6K1uPGh7GclTHvYQdrt3GE0P5C8tEiKSuaKjndCkbwmoVzKMKDsLKo0lbrAYSSwXBW0a9rZjOZVgdy89AgPlAi0FzvG8zesCPMyHhCVjGWijTj2GrxOO1aVTepOMwH7evSGk_KuCL0MN5sevVYfvv95fI6e6vcgEwjZIL5g";
+    public static final String INVALID_BEARER = "Bearer bfriegegbkfjegba;oqrwtho5924875890gfelghoerigvsakjldbksafbaljgfjg";
+
+    //This private constructor prevents class instantiation.
+    private AuthConstants(){
+        throw new AssertionError();
+    }
+}
